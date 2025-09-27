@@ -1,9 +1,5 @@
-import React, { useState, useEffect, useContext, createContext } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from 'react';
 import './index.css';
-import {SunIcon, MoonIcon, MenuIcon, CloseIcon} from './Icons/Icons';
-import { Card } from './components/Card';
-import { ScrollLink } from './components/ScrollLink';
 import {Hero} from './sections/Hero';
 import {Navbar} from './sections/Navbar';
 import  {Footer}  from './sections/Footer';
@@ -17,12 +13,6 @@ import { Contact } from './sections/Contact';
 import { About } from './sections/About';
 import { Schedule } from './sections/Schedule';
 import { BMICalculator } from './sections/BMI';
-
-
-
-
-
-
 
 
 // --- Main App Component ---
