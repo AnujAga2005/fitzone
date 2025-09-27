@@ -1,16 +1,20 @@
 {
+  "homepage": "https://anujaga2005.github.io/fitzone/",
   "name": "fitzone",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.13",
+    "@tailwindcss/vite": "^4.1.13",
     "dotenv": "^17.2.2",
     "framer-motion": "^12.23.16",
     "react": "^19.1.1",
